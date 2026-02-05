@@ -11,10 +11,9 @@ export default function Chat() {
           <h1 className="text-3xl lg:text-[50.56px] font-semibold">Hi, I’m Lilac.</h1>
 
           <p className="text-base font-semibold sm:text-[19.456px] mt-6">
-            I'm committed to providing a safe and supportive environment where
-            we can explore your thoughts, feelings, and behaviors. With empathy
-            and guidance, we'll work together to navigate the challenges life
-            throws your way.
+         I help individuals navigate stress, anxiety, and life transitions through thoughtful
+         conversation and evidence-based guidance. My goal is to support you in building
+         self-awareness, resilience, and confidence in everyday life.
           </p>
 
           <button className="mx-auto mt-10 font-semibold border w-fit px-6 py-3 flex items-center gap-2 hover:bg-[#223614] hover:text-white transition-all">
@@ -24,7 +23,7 @@ export default function Chat() {
 
         <div className="order-1 sm:order-2 relative w-full sm:w-1/2 flex justify-center">
           <Image
-            src="/images/li7.webp"
+            src="/images/image8.jpg"
             width={350}
             height={350}
             alt=""
@@ -32,10 +31,10 @@ export default function Chat() {
           />
 
           <div
-            className="absolute bottom-0 right-0 sm:translate-x-6 sm:translate-y-6 w-48 h-48 sm:w-40 sm:h-40 lg:w-60 lg:h-60 rounded-full overflow-hidden"
+            className="absolute bottom-0 right-12 sm:right-0 sm:translate-x-6 sm:translate-y-6 w-40 h-40 sm:w-50 sm:h-50 lg:w-70 lg:h-70 rounded-full overflow-hidden"
           >
             <Image
-              src="/images/circle.webp"
+              src="/images/image9.png"
               alt="decorative circle"
               fill
               className="object-cover"

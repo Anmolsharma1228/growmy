@@ -14,10 +14,10 @@ export default function MyProfessional() {
   return (
     <section className="bg-[#e7e7e7] py-24 lg:py-0">
       <div className="py-16">
-        <h1 className="font-semibold text-center text-4xl lg:text-[41.92px] text-[#223614]">
+        <h1 className="font-semibold text-center lg:text-4xl  text-[#223614]">
           My Professional Background
         </h1>
-        <div className="w-full md:w-2/4 mx-auto text-[#223614] mt-6">
+        <div className="w-full md:w-2/2 mx-auto text-[#223614] mt-6">
           <div className="space-y-3">
             {myprofessionalbackground.map((faq, index) => (
               <div key={index} className="px-10 pt-6 rounded-md text-[24.64px]">
@@ -42,7 +42,7 @@ export default function MyProfessional() {
               </div>
             ))}
           </div>
-          <div className="w-76 lg:w-150 mx-auto border-b text-[#223614] mt-3 lg:mt-6" />
+          <div className="w-86 sm:w-172 lg:w-235 xl:w-7xl mx-auto border-b text-[#223614] mt-3 lg:mt-6" />
         </div>
       </div>
     </section>

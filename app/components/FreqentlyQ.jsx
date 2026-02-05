@@ -13,11 +13,11 @@ export default function FrequentlyQ() {
 
   return (
     <section className="py-24 sm:py-38">
-      <div className="max-w-6xl mx-auto flex gap-10 lg:gap-16 flex-col md:flex-row items-start space-x-24 px-4 sm:px-14 lg:px-4">
+      <div className="max-w-6xl mx-auto flex gap-10 lg:gap-16 flex-col md:flex-row items-start space-x-24 px-4 sm:px-14 lg:px-2">
         {/* IMAGE */}
-        <div className="w-40 mx-auto sm:w-60 lg:w-75 xl:w-125">
+        <div className="sm:mt-10 lg:mt-0 w-60 mx-auto sm:w-80 lg:w-100 xl:w-125">
           <Image
-            src="/images/li8.webp"
+            src="/images/image10.jpeg"
             width={450}
             height={450}
             alt="FAQ"
@@ -26,12 +26,12 @@ export default function FrequentlyQ() {
         </div>
 
         {/* FAQ CONTENT */}
-        <div className="w-full md:w-2/3 text-[#223614] mt-24 sm:mt-10">
-          <h1 className="text-[50.56px] mb-8 font-semibold">FAQs</h1>
+        <div className="w-full md:w-2/3 text-[#223614] mt-14 sm:mt-10">
+          <h1 className="text-2xl sm:text-3xl mb-8 font-semibold">FAQs</h1>
 
           <div className="space-y-4">
             {faqs.map((faq, index) => (
-              <div key={index} className="rounded-md text-3xl lg:text-[41.92px]">
+              <div key={index} className="rounded-md text-xl lg:text-2xl">
                 {/* QUESTION */}
                 <button
                   onClick={() => toggleFAQ(index)}

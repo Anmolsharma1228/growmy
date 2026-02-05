@@ -1,4 +1,5 @@
 import HeroSection from "./components/HeroSection";
+import About from "./components/About";
 import SecondHero from "./components/SecondHero";
 import Specialties from "./components/Specialties";
 import SectionThree from "./components/SectionThree";
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <div>
      <HeroSection />
+     <About />
       <SecondHero />
       <Specialties />
       <SectionThree />

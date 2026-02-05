@@ -4,27 +4,26 @@ import Image from "next/image"
 export default function Specialties() {
   return (
     <section className="mt-24 max-w-6xl mx-auto px-4">
-      <h1 className="font-semibold text-[#223614] text-3xl md:text-[50.56px] text-center">
+      <h1 className="font-semibold text-[#223614] text-3xl md:text-4xl text-center">
         My Specialties
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-14 lg:h-120">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-14">
 
         {/* CARD */}
-        <div className="h-110 w-full lg:w-90 py-6 border bg-[#E5E0DA] text-[#223614] flex flex-col justify-between mx-auto">
+        <div className="h-120 sm:h-130 w-full py-6 border bg-[#E5E0DA] text-[#223614] flex flex-col justify-between mx-auto">
           <div className="">
             <h2 className="px-6 text-lg md:text-[19.456px] font-semibold">
-              Self-Esteem
+              Anxiety & Panic Therapy
             </h2>
-            <p className="px-6 mt-6 text-sm md:text-[14.272px] font-semibold">
-              Building a strong sense of self-worth is key to living a fulfilled life.
-              Let's work together to bolster your self-esteem.
+            <p className="px-6 mt-4 text-sm md:text-[14.272px] font-semibold">
+             Support for adults who feel overwhelmed by constant worry, overthinking, or physical tension. Therapy focuses on understanding anxiety patterns and developing practical tools to feel more grounded, calm, and in control in daily life.
             </p>
           </div>
 
           <div className="w-64 h-64 sm:w-48 sm:h-48 lg:w-60 lg:h-60 mx-auto rounded-full overflow-hidden">
             <Image
-              src="/images/li3.webp"
+              src="/images/image3.avif"
               width={300}
               height={300}
               alt="Self-Esteem"
@@ -34,19 +33,19 @@ export default function Specialties() {
         </div>
 
         {/* CARD */}
-        <div className="h-110 w-full lg:w-90 py-6 border bg-[#E5E0DA] text-[#223614] flex flex-col justify-between mx-auto">
+        <div className="h-120 sm:h-130 w-full py-6 border bg-[#E5E0DA] text-[#223614] flex flex-col justify-between mx-auto">
           <div className="">
             <h2 className="px-6 text-lg md:text-[19.456px] font-semibold">
-            Relationships
+            Trauma-Informed Therapy
             </h2>
-            <p className="px-6 mt-6 text-sm md:text-[14.272px] font-semibold">
-             Navigating relationships can be complex. I'm here to guide you through these complexities to help you form healthier connections.
+            <p className="px-6 mt-4 text-sm md:text-[14.272px] font-semibold">
+            A gentle, paced approach for adults impacted by past experiences, whether from a single event or long-standing patterns. Sessions prioritize safety, stabilization, and helping you feel more regulated—both emotionally and physically.
             </p>
           </div>
 
           <div className="w-64 h-64 sm:w-48 sm:h-48 lg:w-60 lg:h-60 mx-auto rounded-full overflow-hidden">
             <Image
-              src="/images/li4.webp"
+              src="/images/image4.avif"
               width={300}
               height={300}
               alt="Self-Esteem"
@@ -56,19 +55,19 @@ export default function Specialties() {
         </div>
 
  {/* CARD */}
-        <div className="h-110 w-full lg:w-90 py-6 border bg-[#E5E0DA] text-[#223614] flex flex-col justify-between mx-auto">
+        <div className="h-120 sm:h-130 w-full py-6 border bg-[#E5E0DA] text-[#223614] flex flex-col justify-between mx-auto">
           <div className="">
             <h2 className="px-6 text-lg md:text-[19.456px] font-semibold">
-              Burnout
+             Burnout & High-Achiever Support
             </h2>
-            <p className="px-6 mt-6 text-sm md:text-[14.272px] font-semibold">
-              Feeling overwhelmed by your career is more common than you think. Together, we'll identify strategies to manage and prevent burnout.
+            <p className="px-6 mt-4 text-sm md:text-[14.272px] font-semibold">
+             For professionals and creatives experiencing exhaustion, perfectionism, or constant internal pressure. Therapy offers a space to slow down, reconnect with yourself, and build more sustainable ways of working and living.
             </p>
           </div>
 
           <div className="w-64 h-64 sm:w-48 sm:h-48 lg:w-60 lg:h-60 mx-auto rounded-full overflow-hidden">
             <Image
-              src="/images/li5.webp"
+              src="/images/image5.avif"
               width={300}
               height={300}
               alt="Self-Esteem"

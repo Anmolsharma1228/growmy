@@ -4,50 +4,53 @@ import { FaLongArrowAltRight } from "react-icons/fa"
 
 export default function SectionThree() {
   return (
-    <section className="lg:min-h-screen mt-20">
-      <div className="flex flex-col sm:flex-row">
+    <section className="mt-20">
+      <div className="flex flex-col md:flex-row min-h-150">
 
         {/* LEFT IMAGE */}
-        <div className="w-full sm:w-1/2">
+        <div className="relative w-full lg:w-1/2 h-75 sm:h-100 md:h-auto">
           <Image
-            src="/images/li6.webp"
+            src="/images/image6.png"
             alt="Support"
-            width={675}
-            height={600}
-            className="w-full h-full object-cover"
+            fill
+            priority
+            className="object-cover"
           />
         </div>
 
         {/* RIGHT CONTENT */}
-        <div className="w-full sm:w-1/2 bg-[#bbb] text-[#203614] flex flex-col justify-between pt-20">
+        <div className="w-full lg:w-1/2 bg-[#bbb] text-[#203614] flex flex-col justify-between">
 
           {/* TEXT */}
-          <div className="p-8 lg:p-14">
-            <h1 className="text-4xl lg:text-[50.56px] font-semibold py-6">
-              You don’t have to do this all alone.
+          <div className="p-6 sm:p-10 lg:p-14 pt-12 lg:pt-20">
+            <h1 className="text-xl sm:text-2xl lg:text-4xl font-semibold py-4">
+              You don’t have to carry everything by yourself.
             </h1>
 
-            <p className="mb-4 text-[19.456px] font-semibold">
-              If you are facing any of these, there’s hope:
+            <p className="mb-4 text-base sm:text-lg lg:text-[19.456px] font-semibold">
+              If any of this feels familiar, it doesn’t mean something is wrong
+              with you — it means you’ve been carrying a lot for a long time.
             </p>
 
-            <ul className="sm:mx-4 mx-0 lg:mx-0 list-disc pl-5 mb-4 space-y-2 text-[19.456px] font-semibold">
-              <li>Persistent feelings of sadness or hopelessness</li>
-              <li>Trouble focusing or making decisions</li>
-              <li>Difficulty maintaining relationships</li>
-              <li>Feeling constantly exhausted or unmotivated</li>
-              <li>A pervasive sense of being overwhelmed</li>
+            <ul className="list-disc pl-5 mb-4 space-y-2 text-base sm:text-lg lg:text-[19.456px] font-semibold">
+              <li>Emotional heaviness that doesn’t seem to lift, even on good days</li>
+              <li>Difficulty focusing or making decisions, especially under pressure</li>
+              <li>Strained or confusing relationships</li>
+              <li>Ongoing exhaustion or lack of motivation</li>
+              <li>A constant sense of overwhelm</li>
             </ul>
 
-            <p className="text-[19.456px] font-semibold">
-              With empathy and guidance, we'll work together to navigate the challenges life throws your way.
+            <p className="text-base sm:text-lg lg:text-[19.456px] font-semibold">
+              You don’t need to have everything figured out before reaching out.
+              With compassion and practical guidance, we’ll take things one step
+              at a time — at a pace that feels safe for you.
             </p>
           </div>
 
-          {/* BUTTON (BOTTOM) */}
+          {/* BUTTON */}
           <div className="border-t hover:bg-[#223614] hover:text-white transition-all duration-300">
             <button className="w-full font-semibold p-4 flex items-center justify-center gap-2">
-              WORK WITH ME
+              Let’s work together
               <FaLongArrowAltRight className="text-sm" />
             </button>
           </div>
