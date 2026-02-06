@@ -19,20 +19,20 @@ export default function SectionThree() {
         </div>
 
         {/* RIGHT CONTENT */}
-        <div className="w-full lg:w-1/2 bg-[#bbb] text-[#203614] flex flex-col justify-between">
+        <div className="w-full lg:w-1/2 flex flex-col justify-between">
 
           {/* TEXT */}
           <div className="p-6 sm:p-10 lg:p-14 pt-12 lg:pt-20">
-            <h1 className="text-xl sm:text-2xl lg:text-4xl font-semibold py-4">
+            <h1 className="font-playfair text-xl sm:text-3xl font-semibold py-4">
               You don’t have to carry everything by yourself.
             </h1>
 
-            <p className="mb-4 text-base sm:text-lg lg:text-[19.456px] font-semibold">
+            <p className="font-inter mb-4 text-lg font-semibold">
               If any of this feels familiar, it doesn’t mean something is wrong
               with you — it means you’ve been carrying a lot for a long time.
             </p>
 
-            <ul className="list-disc pl-5 mb-4 space-y-2 text-base sm:text-lg lg:text-[19.456px] font-semibold">
+            <ul className="list-disc pl-5 mb-4 space-y-2 text-base font-semibold">
               <li>Emotional heaviness that doesn’t seem to lift, even on good days</li>
               <li>Difficulty focusing or making decisions, especially under pressure</li>
               <li>Strained or confusing relationships</li>
@@ -40,7 +40,7 @@ export default function SectionThree() {
               <li>A constant sense of overwhelm</li>
             </ul>
 
-            <p className="text-base sm:text-lg lg:text-[19.456px] font-semibold">
+            <p className="text-base sm:text-lg font-semibold">
               You don’t need to have everything figured out before reaching out.
               With compassion and practical guidance, we’ll take things one step
               at a time — at a pace that feels safe for you.

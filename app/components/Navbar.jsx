@@ -13,7 +13,7 @@ export default function Navbar() {
   }, [open]);
 
   return (
-    <header>
+    <header className="font-playfair">
       <nav className="w-full flex justify-between items-center px-4 md:px-8 py-4 relative z-50">
         {/* Mobile Button */}
         <button className="xl:hidden order-1" onClick={() => setOpen(!open)}>

@@ -12,15 +12,15 @@ export default function MyProfessional() {
   };
 
   return (
-    <section className="bg-[#e7e7e7] py-24 lg:py-0">
+    <section className="py-24 lg:py-0">
       <div className="py-16">
-        <h1 className="font-semibold text-center lg:text-4xl  text-[#223614]">
+        <h1 className="font-playfair font-semibold text-center text-xl lg:text-3xl">
           My Professional Background
         </h1>
-        <div className="w-full md:w-2/2 mx-auto text-[#223614] mt-6">
-          <div className="space-y-3">
+        <div className="w-full md:w-2/2 mx-auto mt-6">
+          <div className="font-inter space-y-3">
             {myprofessionalbackground.map((faq, index) => (
-              <div key={index} className="px-10 pt-6 rounded-md text-[24.64px]">
+              <div key={index} className="px-10 pt-6 rounded-md text-lg">
                 {/* QUESTION */}
                 <button
                   onClick={() => toggleFAQ(index)}
@@ -35,7 +35,7 @@ export default function MyProfessional() {
                   className={`overflow-hidden transition-all duration-500 ease-in-out
                   ${openIndex === index ? "max-h-96 opacity-100 mt-4" : "max-h-0 opacity-0"}`}
                 >
-                  <div className="text-[20px] px-5 pb-5 leading-relaxed">
+                  <div className="text-lg px-5 pb-5 leading-relaxed">
                     {faq.description}
                   </div>
                 </div>

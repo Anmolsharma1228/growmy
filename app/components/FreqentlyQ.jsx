@@ -26,10 +26,10 @@ export default function FrequentlyQ() {
         </div>
 
         {/* FAQ CONTENT */}
-        <div className="w-full md:w-2/3 text-[#223614] mt-14 sm:mt-10">
-          <h1 className="text-2xl sm:text-3xl mb-8 font-semibold">FAQs</h1>
+        <div className="w-full md:w-2/3 mt-14 sm:mt-10">
+          <h1 className="font-playfair text-2xl sm:text-3xl mb-8 font-semibold">FAQs</h1>
 
-          <div className="space-y-4">
+          <div className="space-y-4 font-inter">
             {faqs.map((faq, index) => (
               <div key={index} className="rounded-md text-xl lg:text-2xl">
                 {/* QUESTION */}

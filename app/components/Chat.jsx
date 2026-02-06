@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export default function Chat() {
   return (
-    <section className="bg-[#e7e7e7]">
+    <section className="">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center gap-10 px-4 sm:px-10 py-16 sm:py-32">
         {/* TEXT */}
-        <div className="order-2 sm:order-1 w-full sm:w-1/2 text-[#223614]">
-          <h1 className="text-3xl lg:text-[50.56px] font-semibold">Hi, I’m Lilac.</h1>
+        <div className="order-2 sm:order-1 w-full sm:w-1/2">
+          <h1 className="font-playfair text-2xl lg:text-3xl font-semibold">Hi, I’m Lilac.</h1>
 
-          <p className="text-base font-semibold sm:text-[19.456px] mt-6">
+          <p className="font-inter text-base font-semibold sm:text-lg mt-6">
          I help individuals navigate stress, anxiety, and life transitions through thoughtful
          conversation and evidence-based guidance. My goal is to support you in building
          self-awareness, resilience, and confidence in everyday life.

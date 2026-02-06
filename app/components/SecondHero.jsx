@@ -4,7 +4,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 export default function SecondHero() {
   return (
     <section className="max-w-full mt-24 sm:mt-16 mx-auto">
-      <div className="flex flex-col sm:flex-row lg:min-h-150 bg-[#d0d0d0]">
+      <div className="flex flex-col sm:flex-row lg:min-h-150">
         {/* LEFT */}
         <div className="order-1 w-full sm:w-1/2">
           <div className="relative w-full aspect-4/3 sm:aspect-auto sm:h-full">
@@ -19,19 +19,19 @@ export default function SecondHero() {
         </div>
 
         {/* RIGHT */}
-        <div className="order-2 w-full sm:w-1/2 flex flex-col justify-between pt-24">
+        <div className="font-playfair order-2 w-full sm:w-1/2 flex flex-col justify-between pt-24 sm:pt-12">
           <div className="px-4 sm:px-10 flex flex-col justify-center flex-1">
-            <h1 className="font-semibold text-3xl lg:text-[50.56px]">
+            <h1 className="font-semibold text-3xl lg:text-4xl">
               You don’t have to navigate life alone.
             </h1>
 
-            <p className="text-xl sm:text-[19.456px] my-4">
+            <p className="font-inter text-lg my-4">
               Life can feel overwhelming when responsibilities, expectations,
               and emotions start pulling you in different directions. It’s not
               always easy to slow down and understand what you’re truly feeling.
             </p>
 
-            <p className="text-xl sm:text-[19.456px] mb-14">
+            <p className="font-inter text-lg mb-14">
               This is a safe space to pause, reflect, and reconnect with
               yourself. Together, we’ll work through challenges with clarity,
               compassion, and practical guidance—so you can move forward with

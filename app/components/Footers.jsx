@@ -10,13 +10,13 @@ export default function Footers() {
 
       {/* LEFT */}
       <div>
-        <h1 className="text-3xl lg:text-[41.92px]">Lilac Template</h1>
-        <div className="text-xl md:text-[19.456px] py-4">
+        <h1 className="font-playfair text-xl lg:text-2xl">Lilac Template</h1>
+        <div className="font-inter text-sm py-4">
           <p>123 Example Road</p>
           <p>Minneapolis, MN</p>
         </div>
 
-        <div className="underline text-xl md:text-[19.456px] py-4 flex flex-col">
+        <div className="font-inter underline text-sm py-4 flex flex-col">
           <Link href="/">email@example.com</Link>
           <Link href="/">(555) 555-5555</Link>
         </div>
@@ -25,16 +25,16 @@ export default function Footers() {
       {/* RIGHT */}
       <div className="flex flex-col md:flex-row gap-10 md:gap-24">
         <div>
-          <h1 className="text-2xl sm:text-3xl lg:text-[41.92px]">Hours</h1>
-          <div className="py-4 text-xl md:text-[19.456px]">
+          <h1 className="font-playfair text-xl lg:text-2xl">Hours</h1>
+          <div className="font-inter py-4 text-sm">
             <p>Monday – Friday</p>
             <p>10am – 6pm</p>
           </div>
         </div>
 
         <div>
-          <h1 className="text-2xl sm:text-3xl lg:text-[41.92px]">Find</h1>
-          <div className="sm:text-right flex flex-col underline text-xl md:text-[19.456px] pt-4">
+          <h1 className="font-playfair text-xl lg:text-2xl">Find</h1>
+          <div className="font-inter sm:text-right flex flex-col underline text-sm pt-4">
             <Link href="/">Home</Link>
             <Link href="/">Contact</Link>
             <Link href="/">Blog</Link>
@@ -46,7 +46,7 @@ export default function Footers() {
   </div>
 
   {/* Bottom Bar */}
-  <div className="bg-[#e7e7e7] px-4">
+  <div className="font-inter px-4">
     <div className="pt-10 text-sm text-center">
       <div className="flex flex-wrap justify-center gap-2 underline">
         <Link href="/">Privacy & Cookies Policy</Link>
